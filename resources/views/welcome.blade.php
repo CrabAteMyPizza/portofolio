@@ -1,8 +1,8 @@
 <x-layout>
     <x-slot name="addedCustomScript">
         <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <script src="{{asset('js/textAnimControl.js')}}" defer></script>
-        <link href="{{asset('css/welcome.css')}}" rel="stylesheet">
+        <script src="{{secure_asset('js/textAnimControl.js')}}" defer></script>
+        <link href="{{secure_asset('css/welcome.css')}}" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@0;1&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3a24dfb225.js" crossorigin="anonymous"></script>
@@ -26,19 +26,19 @@
           <div id="carouselExampleCaptions" class="carousel slide lg-layout-setting"  data-bs-ride="carousel" data-interval="500">
             <div class="carousel-inner">
                 <div class="carousel-item cust-car-height entry-img-frame active">
-                  <img src="{{asset('images/code.png')}}" class="carousel-image">
+                  <img src="{{secure_asset('images/code.png')}}" class="carousel-image">
                 </div>
                 <div class="carousel-item cust-car-height">
-                  <img src="{{asset('images/BackNew.png')}}" class="carousel-image">
+                  <img src="{{secure_asset('images/BackNew.png')}}" class="carousel-image">
                 </div>
                 <div class="carousel-item cust-car-height">
-                  <img src="{{asset('images/Jaguar.png')}}" class="carousel-image">
+                  <img src="{{secure_asset('images/Jaguar.png')}}" class="carousel-image">
                 </div>
                 <div class="carousel-item cust-car-height">
-                  <img src="{{asset('images/sea.png')}}" class="carousel-image">
+                  <img src="{{secure_asset('images/sea.png')}}" class="carousel-image">
                 </div>
                 <div class="carousel-item cust-car-height">
-                  <img src="{{asset('images/2049.png')}}" class="carousel-image">
+                  <img src="{{secure_asset('images/2049.png')}}" class="carousel-image">
                 </div>
             </div>
           </div>

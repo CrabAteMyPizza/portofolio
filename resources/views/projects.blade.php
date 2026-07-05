@@ -1,7 +1,7 @@
 <x-layout>
     <x-slot name="addedCustomScript">
         <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="{{asset('css/welcome.css')}}" rel="stylesheet">
+        <link href="{{secure_asset('css/welcome.css')}}" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@0;1&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3a24dfb225.js" crossorigin="anonymous"></script>
@@ -31,7 +31,7 @@
                         <div class="carousel-item rounded-4 cust-car-prj active">
                             <div class="bg-light d-flex flex-column flex-lg-row h-100">
                                 <div class="lg-layout-setting rounded-4">
-                                    <img class="carousel-image" src="{{asset('images/CodingThumbnail/sea.jpg')}}">
+                                    <img class="carousel-image" src="{{secure_asset('images/CodingThumbnail/sea.jpg')}}">
                                 </div>
                                 
                                 <div class="w-100 d-flex flex-column my-auto mx-auto text-dark lg-layout-setting">
@@ -164,7 +164,7 @@
                         <div class="carousel-item rounded-4 cust-car-prj">
                             <div class="bg-light d-flex flex-column flex-lg-row h-100">
                                 <div class="lg-layout-setting rounded-4">
-                                    <img class="carousel-image" src="{{asset('images/CodingThumbnail/ecommerce.png')}}">
+                                    <img class="carousel-image" src="{{secure_asset('images/CodingThumbnail/ecommerce.png')}}">
                                 </div>
                                 
                                 <div class="w-100 d-flex flex-column my-auto mx-auto text-dark lg-layout-setting">
@@ -203,7 +203,7 @@
                         <div class="carousel-item rounded-4 cust-car-prj">
                             <div class="bg-light d-flex flex-column flex-lg-row h-100">
                                 <div class="lg-layout-setting rounded-4">
-                                    <img class="carousel-image" src="{{asset('images/CodingThumbnail/StockTicker.png')}}">
+                                    <img class="carousel-image" src="{{secure_asset('images/CodingThumbnail/StockTicker.png')}}">
                                 </div>
                                 
                                 <div class="w-100 d-flex flex-column my-auto mx-auto text-dark lg-layout-setting">
@@ -245,7 +245,7 @@
                         <div class="carousel-item rounded-4 cust-car-prj">
                             <div class="bg-light d-flex flex-column flex-lg-row h-100">
                                 <div class="lg-layout-setting rounded-4">
-                                    <img class="carousel-image" src="{{asset('images/CodingThumbnail/GameOfLife.png')}}">
+                                    <img class="carousel-image" src="{{secure_asset('images/CodingThumbnail/GameOfLife.png')}}">
                                 </div>
                                 
                                 <div class="w-100 d-flex flex-column my-auto mx-auto text-dark lg-layout-setting">
@@ -281,7 +281,7 @@
                         <div class="carousel-item rounded-4 cust-car-prj">
                             <div class="bg-light d-flex flex-column flex-lg-row h-100">
                                 <div class="lg-layout-setting rounded-4">
-                                    <img class="carousel-image" src="{{asset('images/CodingThumbnail/lissajous.png')}}">
+                                    <img class="carousel-image" src="{{secure_asset('images/CodingThumbnail/lissajous.png')}}">
                                 </div>
                                 
                                 <div class="w-100 d-flex flex-column my-auto mx-auto text-dark lg-layout-setting">
@@ -343,7 +343,7 @@
                         <div class="carousel-item rounded-4 cust-car-prj active">
                             <div class="bg-light d-flex flex-column flex-lg-row h-100">
                                 <div class="lg-layout-setting rounded-4">
-                                    <img class="carousel-image" src="{{asset('images/Jaguar/front.png')}}">
+                                    <img class="carousel-image" src="{{secure_asset('images/Jaguar/front.png')}}">
                                 </div>
                                 
                                 <div class="w-100 d-flex flex-column my-auto mx-auto text-dark lg-layout-setting">
@@ -560,7 +560,7 @@
                         <div class="carousel-item rounded-4 cust-car-prj">
                             <div class="bg-light d-flex flex-column flex-lg-row h-100">
                                 <div class="lg-layout-setting rounded-4">
-                                    <img class="carousel-image" src="{{asset('images/2049/threeQuarter.png')}}">
+                                    <img class="carousel-image" src="{{secure_asset('images/2049/threeQuarter.png')}}">
                                 </div>
                                 
                                 <div class="w-100 d-flex flex-column my-auto mx-auto text-dark lg-layout-setting">
