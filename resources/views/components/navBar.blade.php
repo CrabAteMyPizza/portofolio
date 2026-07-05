@@ -15,7 +15,7 @@
         </div>
 
         <div class="d-flex mx-3 align-items-center">
-            <a href="/aboutMe" class="contact-link archivo-medium fs-4 fs-6 fw-normal">
+            <a href="/#" class="contact-link archivo-medium fs-4 fs-6 fw-normal">
                 Curriculum Vitae
             </a>
         </div>
